@@ -1,0 +1,2896 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            >
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_margin="10dp"
+                app:cardCornerRadius="5dp"
+                app:cardElevation="10dp"
+                android:elevation="10dp"
+
+                >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:background="@color/white"
+                    >
+
+                    <ImageView
+                        android:id="@+id/img_chicken_curry_cut_boneless"
+                        android:layout_width="wrap_content"
+                        android:layout_height="170dp"
+                        android:layout_gravity="start"
+                        android:layout_marginTop="-35dp"
+                        android:src="@drawable/boneless"/>
+
+                    <TextView
+                        android:id="@+id/tv_chicken_curry_cut_boneless"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Chicken Curry Cuts"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:textStyle="normal"
+                        android:fontFamily="@font/robotoslabregular"
+                        android:textColor="@color/black"
+                        android:textSize="15sp"
+                        android:layout_marginTop="-27dp"
+                        />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+
+                        <TextView
+                            android:id="@+id/tv_chicken_curry_cut_boneless_wt"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="500gms"
+                            android:layout_weight="1"
+                            android:layout_gravity="center"
+                            android:gravity="start|center"
+                            android:textStyle="normal"
+                            android:fontFamily="@font/robotoslabregular"
+                            android:textColor="@color/black"
+                            android:textSize="12sp"
+                            android:layout_marginLeft="4dp"
+                            />
+
+                        <TextView
+                            android:id="@+id/tv_boneless_curry_cut"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Boneless"
+                            android:layout_gravity="center"
+                            android:gravity="start|center"
+                            android:textAlignment="textStart"
+                            android:textStyle="normal"
+                            android:fontFamily="@font/robotoslabregular"
+                            android:textColor="@color/black"
+                            android:textSize="12sp"
+                            android:layout_marginRight="5dp"
+
+                            />
+
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+
+
+                        <TextView
+                            android:id="@+id/tv_chicken_curry_boneless_price_farm"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/Rs110"
+                            android:layout_weight="1"
+                            android:layout_gravity="center"
+                            android:gravity="start|center"
+                            android:textAlignment="textStart"
+                            android:textStyle="normal"
+                            android:fontFamily="@font/robotoslabregular"
+                            android:textColor="@color/darkblue"
+                            android:textSize="12sp"
+                            android:layout_marginLeft="4dp"
+                            />
+
+                        <TextView
+                            android:id="@+id/tv_farm_curry_cut_boneless"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Farm"
+                            android:layout_marginRight="5dp"
+                            android:layout_gravity="center"
+                            android:gravity="start|center"
+                            android:textAlignment="textStart"
+                            android:textStyle="normal"
+                            android:fontFamily="@font/robotoslabregular"
+                            android:textColor="@color/black"
+                            android:textSize="12sp"
+                            android:layout_marginLeft="4dp"
+                            />
+
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+
+
+                        <TextView
+                            android:id="@+id/tv_chicken_curry_cut_boneless_price_desi"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/Rs180"
+                            android:layout_weight="1"
+                            android:layout_gravity="center"
+                            android:gravity="start|center"
+                            android:textAlignment="textStart"
+                            android:textStyle="normal"
+                            android:fontFamily="@font/robotoslabregular"
+                            android:textColor="@color/darkblue"
+                            android:textSize="12sp"
+                            android:layout_marginLeft="4dp"
+                            />
+
+                        <TextView
+                            android:id="@+id/tv_desi_curry_cut_boneless"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Desi"
+                            android:layout_marginRight="5dp"
+                            android:layout_gravity="center"
+                            android:gravity="start|center"
+                            android:textAlignment="textStart"
+                            android:textStyle="normal"
+                            android:fontFamily="@font/robotoslabregular"
+                            android:textColor="@color/black"
+                            android:textSize="12sp"
+                            android:layout_marginLeft="4dp"
+                            />
+
+
+                    </LinearLayout>
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0.4dp"
+                        android:layout_marginRight="3dp"
+                        android:layout_marginLeft="3dp"
+                        android:background="@color/black"/>
+                    <TextView
+                        android:id="@+id/tv_addtocart_chicken_curry_cut_boneless"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="ADD TO CART"
+                        android:layout_marginRight="5dp"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:textAlignment="center"
+                        android:textStyle="normal"
+                        android:fontFamily="@font/robotoslabregular"
+                        android:textColor="@color/black"
+                        android:layout_marginTop="4dp"
+                        android:textSize="12sp"
+                        android:layout_marginLeft="4dp"
+                        />
+
+                    <LinearLayout
+
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:orientation="horizontal"
+                        android:weightSum="2"
+                        >
+
+                        <com.google.android.material.button.MaterialButton
+                            android:id="@+id/btn_add_farm_chicken_curry_cut_boneless"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            app:cornerRadius="5dp"
+                            android:elevation="10dp"
+                            app:elevation="10dp"
+                            android:text="Farm"
+                            android:textSize="10sp"
+                            android:textAlignment="center"
+                            android:textColor="@color/white"
+                            android:backgroundTint="@color/darkblue"
+                            android:fontFamily="@font/robotoslabregular"
+                            android:textStyle="normal"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginLeft="3dp"
+                            android:onClick="addDetailsFarmCurryCutBoneless"
+                            />
+
+                        <com.google.android.material.button.MaterialButton
+                            android:id="@+id/btn_add_desi_chicken_curry_cut_boneless"
+                            android:layout_width="103dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginRight="3dp"
+                            android:layout_weight="1"
+                            android:backgroundTint="@color/darkblue"
+                            android:elevation="10dp"
+                            android:fontFamily="@font/robotoslabregular"
+                            android:onClick="addDetailsDesiCurryCutBoneless"
+                            android:text="Desi"
+                            android:textAlignment="center"
+                            android:textColor="@color/white"
+                            android:textSize="10sp"
+                            android:textStyle="normal"
+                            app:cornerRadius="5dp"
+                            app:elevation="10dp" />
+
+
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_margin="10dp"
+                app:cardCornerRadius="5dp"
+                app:cardElevation="10dp"
+                android:elevation="10dp"
+                >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:background="@color/white"
+                    >
+
+                    <ImageView
+                        android:id="@+id/img_chicken_curry_cut_bone"
+                        android:layout_width="wrap_content"
+                        android:layout_height="170dp"
+                        android:layout_gravity="start"
+                        android:layout_marginTop="-35dp"
+                        android:src="@drawable/bone"/>
+
+                    <TextView
+                        android:id="@+id/tv_chicken_curry_cut_bone"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Chicken Curry Cuts"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:textStyle="normal"
+                        android:fontFamily="@font/robotoslabregular"
+                        android:textColor="@color/black"
+                        android:textSize="15sp"
+                        android:layout_marginTop="-27dp"
+                        />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+
+                        <TextView
+                            android:id="@+id/tv_chicken_curry_cut_bone_wt"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="500gms"
+                            android:layout_weight="1"
+                            android:layout_gravity="center"
+                            android:gravity="start|center"
+                            android:textStyle="normal"
+                            android:fontFamily="@font/robotoslabregular"
+                            android:textColor="@color/black"
+                            android:textSize="12sp"
+                            android:layout_marginLeft="4dp"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=" "
+                            android:layout_gravity="center"
+                            android:gravity="start|center"
+                            android:textAlignment="textStart"
+                            android:textStyle="normal"
+                            android:fontFamily="@font/robotoslabregular"
+                            android:textColor="@color/black"
+                            android:textSize="12sp"
+                            android:layout_marginRight="5dp"
+
+                            />
+
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+
+
+                        <TextView
+                            android:id="@+id/tv_chicken_curry_bone_price_farm"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/Rs100"
+                            android:layout_weight="1"
+                            android:layout_gravity="center"
+                            android:gravity="start|center"
+                            android:textAlignment="textStart"
+                            android:textStyle="normal"
+                            android:fontFamily="@font/robotoslabregular"
+                            android:textColor="@color/darkblue"
+                            android:textSize="12sp"
+                            android:layout_marginLeft="4dp"
+                            />
+
+                        <TextView
+                            android:id="@+id/tv_farm_curry_cut_bone"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Farm"
+                            android:layout_marginRight="5dp"
+                            android:layout_gravity="center"
+                            android:gravity="start|center"
+                            android:textAlignment="textStart"
+                            android:textStyle="normal"
+                            android:fontFamily="@font/robotoslabregular"
+                            android:textColor="@color/black"
+                            android:textSize="12sp"
+                            android:layout_marginLeft="4dp"
+                            />
+
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+
+
+                        <TextView
+                            android:id="@+id/tv_chicken_curry_bone_price_desi"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/Rs170"
+                            android:layout_weight="1"
+                            android:layout_gravity="center"
+                            android:gravity="start|center"
+                            android:textAlignment="textStart"
+                            android:textStyle="normal"
+                            android:fontFamily="@font/robotoslabregular"
+                            android:textColor="@color/darkblue"
+                            android:textSize="12sp"
+                            android:layout_marginLeft="4dp"
+                            />
+
+                        <TextView
+                            android:id="@+id/tv_desi_curry_cut_bone"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Desi"
+                            android:layout_marginRight="5dp"
+                            android:layout_gravity="center"
+                            android:gravity="start|center"
+                            android:textAlignment="textStart"
+                            android:textStyle="normal"
+                            android:fontFamily="@font/robotoslabregular"
+                            android:textColor="@color/black"
+                            android:textSize="12sp"
+                            android:layout_marginLeft="4dp"
+                            />
+
+
+                    </LinearLayout>
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0.4dp"
+                        android:layout_marginRight="3dp"
+                        android:layout_marginLeft="3dp"
+                        android:background="@color/black"/>
+                    <TextView
+                        android:id="@+id/tv_addtocart_chicken_curry_cut_bone"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="ADD TO CART"
+                        android:layout_marginRight="5dp"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:textAlignment="center"
+                        android:textStyle="normal"
+                        android:fontFamily="@font/robotoslabregular"
+                        android:textColor="@color/black"
+                        android:layout_marginTop="4dp"
+                        android:textSize="12sp"
+                        android:layout_marginLeft="4dp"
+                        />
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:orientation="horizontal"
+                        android:weightSum="2"
+                        >
+
+                        <com.google.android.material.button.MaterialButton
+                            android:id="@+id/btn_farm_chicken_curry_cut_bone"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            app:cornerRadius="5dp"
+                            android:elevation="10dp"
+                            app:elevation="10dp"
+                            android:text="Farm"
+                            android:textSize="10sp"
+                            android:textAlignment="center"
+                            android:textColor="@color/white"
+                            android:backgroundTint="@color/darkblue"
+                            android:fontFamily="@font/robotoslabregular"
+                            android:textStyle="normal"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginLeft="3dp"
+                            android:onClick="addDetailsFarmCurryCutBone"
+
+                            />
+
+                        <com.google.android.material.button.MaterialButton
+                            android:id="@+id/btn_desi_chicken_curry_cut_bone"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            app:cornerRadius="5dp"
+                            android:elevation="10dp"
+                            app:elevation="10dp"
+                            android:text="Desi"
+                            android:textSize="10sp"
+                            android:textAlignment="center"
+                            android:textColor="@color/white"
+                            android:backgroundTint="@color/darkblue"
+                            android:fontFamily="@font/robotoslabregular"
+                            android:textStyle="normal"
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginRight="3dp"
+                            android:onClick="addDetailsDesiCurryCutBone"
+                            />
+
+
+
+
+                    </LinearLayout>
+
+
+
+
+
+
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            >
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_margin="10dp"
+                app:cardCornerRadius="5dp"
+                app:cardElevation="10dp"
+                android:elevation="10dp"
+                >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:background="@color/white"
+                    >
+
+                    <ImageView
+                        android:id="@+id/img_chicken_drumstick"
+                        android:layout_width="wrap_content"
+                        android:layout_height="170dp"
+                        android:layout_gravity="start"
+                        android:layout_marginTop="-35dp"
+                        android:src="@drawable/legpiece"/>
+
+                    <TextView
+                        android:id="@+id/tv_chicken_drumstick"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Chicken Drumstick"
+                        android:layout_gravity="center"
+                        android:gravity="start|center"
+                        android:textStyle="normal"
+                        android:fontFamily="@font/robotoslabregular"
+                        android:textColor="@color/black"
+                        android:textSize="15sp"
+                        android:layout_marginTop="-27dp"
+                        />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+
+                        <TextView
+                            android:id="@+id/tv_chicken_drumstick_wt"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="500gms"
+                            android:layout_weight="1"
+                            android:layout_gravity="center"
+                            android:gravity="start|center"
+                            android:textAlignment="textStart"
+                            android:textStyle="normal"
+                            android:fontFamily="@font/robotoslabregular"
+                            android:textColor="@color/black"
+                            android:textSize="12sp"
+                            android:layout_marginLeft="4dp"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=" "
+                            android:layout_gravity="center"
+                            android:gravity="start|center"
+                            android:textAlignment="textStart"
+                            android:textStyle="normal"
+                            android:fontFamily="@font/robotoslabregular"
+                            android:textColor="@color/black"
+                            android:textSize="12sp"
+                            android:layout_marginRight="5dp"
+
+                            />
+
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+
+
+                        <TextView
+                            android:id="@+id/tv_chicken_drumstick_price_farm"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/Rs150"
+                            android:layout_weight="1"
+                            android:layout_gravity="center"
+                            android:gravity="start|center"
+                            android:textAlignment="textStart"
+                            android:textStyle="normal"
+                            android:fontFamily="@font/robotoslabregular"
+                            android:textColor="@color/darkblue"
+                            android:textSize="12sp"
+                            android:layout_marginLeft="4dp"
+                            />
+
+                        <TextView
+                            android:id="@+id/tv__farm_chicken_drumstick"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Farm"
+                            android:layout_marginRight="5dp"
+                            android:layout_gravity="center"
+                            android:gravity="start|center"
+                            android:textAlignment="textStart"
+                            android:textStyle="normal"
+                            android:fontFamily="@font/robotoslabregular"
+                            android:textColor="@color/black"
+                            android:textSize="12sp"
+                            android:layout_marginLeft="4dp"
+                            />
+
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+
+
+                        <TextView
+                            android:id="@+id/tv_chicken_drumstick_price_desi"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/Rs250"
+                            android:layout_weight="1"
+                            android:layout_gravity="center"
+                            android:gravity="start|center"
+                            android:textAlignment="textStart"
+                            android:textStyle="normal"
+                            android:fontFamily="@font/robotoslabregular"
+                            android:textColor="@color/darkblue"
+                            android:textSize="12sp"
+                            android:layout_marginLeft="4dp"
+                            />
+
+                        <TextView
+                            android:id="@+id/tv_desi_chicken_drumstick"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Desi"
+                            android:layout_marginRight="5dp"
+                            android:layout_gravity="center"
+                            android:gravity="start|center"
+                            android:textAlignment="textStart"
+                            android:textStyle="normal"
+                            android:fontFamily="@font/robotoslabregular"
+                            android:textColor="@color/black"
+                            android:textSize="12sp"
+                            android:layout_marginLeft="4dp"
+                            />
+
+
+                    </LinearLayout>
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0.4dp"
+                        android:layout_marginRight="3dp"
+                        android:layout_marginLeft="3dp"
+                        android:background="@color/black"/>
+                    <TextView
+                        android:id="@+id/tv_addtocart_chicken_drumstick"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="ADD TO CART"
+                        android:layout_marginRight="5dp"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:textAlignment="center"
+                        android:textStyle="normal"
+                        android:fontFamily="@font/robotoslabregular"
+                        android:textColor="@color/black"
+                        android:layout_marginTop="4dp"
+                        android:textSize="12sp"
+                        android:layout_marginLeft="4dp"
+                        />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:orientation="horizontal"
+                        android:weightSum="2"
+                        >
+
+                        <com.google.android.material.button.MaterialButton
+                            android:id="@+id/btn_farm_chicken_drumstick"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            app:cornerRadius="5dp"
+                            android:elevation="10dp"
+                            app:elevation="10dp"
+                            android:text="Farm"
+                            android:textSize="10sp"
+                            android:textAlignment="center"
+                            android:textColor="@color/white"
+                            android:backgroundTint="@color/darkblue"
+                            android:fontFamily="@font/robotoslabregular"
+                            android:textStyle="normal"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginLeft="3dp"
+                            android:onClick="addDetailsFarmChickenDrumStick"
+
+                            />
+
+                        <com.google.android.material.button.MaterialButton
+                            android:id="@+id/btn_desi_chicken_drumstick"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            app:cornerRadius="5dp"
+                            android:elevation="10dp"
+                            app:elevation="10dp"
+                            android:text="Desi"
+                            android:textSize="10sp"
+                            android:textAlignment="center"
+                            android:textColor="@color/white"
+                            android:backgroundTint="@color/darkblue"
+                            android:fontFamily="@font/robotoslabregular"
+                            android:textStyle="normal"
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginRight="3dp"
+                            android:onClick="addDetailsDesiChickenDrumStick"
+                            />
+
+
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_margin="10dp"
+                app:cardCornerRadius="5dp"
+                app:cardElevation="10dp"
+                android:elevation="10dp"
+                >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:background="@color/white"
+
+                    >
+
+                    <ImageView
+                        android:id="@+id/img_tandori_chicken"
+                        android:layout_width="wrap_content"
+                        android:layout_height="170dp"
+                        android:layout_gravity="start"
+                        android:layout_marginTop="-35dp"
+                        android:src="@drawable/tandoorchicken"/>
+
+                    <TextView
+                        android:id="@+id/tv_tandori_chicken"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Tandori Chicken"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:textStyle="normal"
+                        android:fontFamily="@font/robotoslabregular"
+                        android:textColor="@color/black"
+                        android:textSize="15sp"
+                        android:layout_marginTop="-27dp"
+                        />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+
+                        <TextView
+                            android:id="@+id/tv_tandori_chicken_wt"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="1 whole chicken"
+                            android:layout_weight="1"
+                            android:layout_gravity="center"
+                            android:gravity="start|center"
+                            android:textAlignment="textStart"
+                            android:textStyle="normal"
+                            android:fontFamily="@font/robotoslabregular"
+                            android:textColor="@color/black"
+                            android:textSize="12sp"
+                            android:layout_marginLeft="4dp"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=" "
+                            android:layout_gravity="center"
+                            android:gravity="start|center"
+                            android:textAlignment="textStart"
+                            android:textStyle="normal"
+                            android:fontFamily="@font/robotoslabregular"
+                            android:textColor="@color/black"
+                            android:textSize="12sp"
+                            android:layout_marginRight="5dp"
+
+                            />
+
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+
+
+                        <TextView
+                            android:id="@+id/tv_tandori_chicken_price_farm"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/Kg160"
+                            android:layout_weight="1"
+                            android:layout_gravity="center"
+                            android:gravity="start|center"
+                            android:textAlignment="textStart"
+                            android:textStyle="normal"
+                            android:fontFamily="@font/robotoslabregular"
+                            android:textColor="@color/darkblue"
+                            android:textSize="12sp"
+                            android:layout_marginLeft="4dp"
+                            />
+
+                        <TextView
+                            android:id="@+id/tv__farm_tandori_chicken"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Farm"
+                            android:layout_marginRight="5dp"
+                            android:layout_gravity="center"
+                            android:gravity="start|center"
+                            android:textAlignment="textStart"
+                            android:textStyle="normal"
+                            android:fontFamily="@font/robotoslabregular"
+                            android:textColor="@color/black"
+                            android:textSize="12sp"
+                            android:layout_marginLeft="4dp"
+                            />
+
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+
+
+                        <TextView
+                            android:id="@+id/tv_tandori_chicken_price_desi"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/kg320"
+                            android:layout_weight="1"
+                            android:layout_gravity="center"
+                            android:gravity="start|center"
+                            android:textAlignment="textStart"
+                            android:textStyle="normal"
+                            android:fontFamily="@font/robotoslabregular"
+                            android:textColor="@color/darkblue"
+                            android:textSize="12sp"
+                            android:layout_marginLeft="4dp"
+                            />
+
+                        <TextView
+                            android:id="@+id/tv__desi_tandori_chicken"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Desi"
+                            android:layout_marginRight="5dp"
+                            android:layout_gravity="center"
+                            android:gravity="start|center"
+                            android:textAlignment="textStart"
+                            android:textStyle="normal"
+                            android:fontFamily="@font/robotoslabregular"
+                            android:textColor="@color/black"
+                            android:textSize="12sp"
+                            android:layout_marginLeft="4dp"
+                            />
+
+
+                    </LinearLayout>
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0.4dp"
+                        android:layout_marginRight="3dp"
+                        android:layout_marginLeft="3dp"
+                        android:background="@color/black"/>
+                    <TextView
+                        android:id="@+id/tv_addtocart_tandori_chicken"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="ADD TO CART"
+                        android:layout_marginRight="5dp"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:textAlignment="center"
+                        android:textStyle="normal"
+                        android:fontFamily="@font/robotoslabregular"
+                        android:textColor="@color/black"
+                        android:layout_marginTop="4dp"
+                        android:textSize="12sp"
+                        android:layout_marginLeft="4dp"
+                        />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:orientation="horizontal"
+                        android:weightSum="2"
+                        >
+
+                        <com.google.android.material.button.MaterialButton
+                            android:id="@+id/btn_farm_tandori_chicken"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            app:cornerRadius="5dp"
+                            android:elevation="10dp"
+                            app:elevation="10dp"
+                            android:text="Farm"
+                            android:textSize="10sp"
+                            android:textAlignment="center"
+                            android:textColor="@color/white"
+                            android:backgroundTint="@color/darkblue"
+                            android:fontFamily="@font/robotoslabregular"
+                            android:textStyle="normal"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginLeft="3dp"
+                            android:onClick="addDetailsFarmTandoriChicken"
+
+                            />
+
+                        <com.google.android.material.button.MaterialButton
+                            android:id="@+id/btn_desi_tandori_chicken"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            app:cornerRadius="5dp"
+                            android:elevation="10dp"
+                            app:elevation="10dp"
+                            android:text="Desi"
+                            android:textSize="10sp"
+                            android:textAlignment="center"
+                            android:textColor="@color/white"
+                            android:backgroundTint="@color/darkblue"
+                            android:fontFamily="@font/robotoslabregular"
+                            android:textStyle="normal"
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginRight="3dp"
+                            android:onClick="addDetailsDesiTandoriChicken"
+                            />
+
+
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            >
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_margin="10dp"
+                app:cardCornerRadius="5dp"
+                app:cardElevation="10dp"
+                android:elevation="10dp"
+                >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:background="@color/white"
+
+                    >
+
+                    <ImageView
+                        android:id="@+id/img_farm_chicken"
+                        android:layout_width="wrap_content"
+                        android:layout_height="170dp"
+                        android:layout_gravity="start"
+                        android:layout_marginTop="-35dp"
+                        android:src="@drawable/farmchicken"/>
+
+                    <TextView
+                        android:id="@+id/tv_farm_chicken"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Farm Chicken"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:textStyle="normal"
+                        android:fontFamily="@font/robotoslabregular"
+                        android:textColor="@color/black"
+                        android:textSize="15sp"
+                        android:layout_marginTop="-27dp"
+                        />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+
+                        <TextView
+                            android:id="@+id/tv_farm_chicken_wt"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="1kg (Net wt 700-800 gms)"
+                            android:layout_weight="1"
+                            android:layout_gravity="center"
+                            android:gravity="start|center"
+                            android:textAlignment="textStart"
+                            android:textStyle="normal"
+                            android:fontFamily="@font/robotoslabregular"
+                            android:textColor="@color/black"
+                            android:textSize="12sp"
+                            android:layout_marginLeft="4dp"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=" "
+                            android:layout_gravity="center"
+                            android:gravity="start|center"
+                            android:textAlignment="textStart"
+                            android:textStyle="normal"
+                            android:fontFamily="@font/robotoslabregular"
+                            android:textColor="@color/black"
+                            android:textSize="12sp"
+                            android:layout_marginRight="5dp"
+
+                            />
+
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+
+
+                        <TextView
+                            android:id="@+id/tv_farm_chicken_price"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/Rs150"
+                            android:layout_weight="1"
+                            android:layout_gravity="center"
+                            android:gravity="start|center"
+                            android:textAlignment="textStart"
+                            android:textStyle="normal"
+                            android:fontFamily="@font/robotoslabregular"
+                            android:textColor="@color/darkblue"
+                            android:textSize="12sp"
+                            android:layout_marginLeft="4dp"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=" "
+                            android:layout_marginRight="5dp"
+                            android:layout_gravity="center"
+                            android:gravity="start|center"
+                            android:textAlignment="textStart"
+                            android:textStyle="normal"
+                            android:fontFamily="@font/robotoslabregular"
+                            android:textColor="@color/black"
+                            android:textSize="12sp"
+                            android:layout_marginLeft="4dp"
+                            />
+
+
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0.4dp"
+                        android:layout_marginRight="3dp"
+                        android:layout_marginLeft="3dp"
+                        android:background="@color/black"/>
+                    <TextView
+                        android:id="@+id/tv_addtocart_farm_chicken"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="ADD TO CART"
+                        android:layout_marginRight="5dp"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:textAlignment="center"
+                        android:textStyle="normal"
+                        android:fontFamily="@font/robotoslabregular"
+                        android:textColor="@color/black"
+                        android:layout_marginTop="4dp"
+                        android:textSize="12sp"
+                        android:layout_marginLeft="4dp"
+                        />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:orientation="horizontal"
+
+                        >
+
+                        <com.google.android.material.button.MaterialButton
+                            android:id="@+id/btn_add_farm_chicken"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            app:cornerRadius="5dp"
+                            android:elevation="10dp"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            app:elevation="10dp"
+                            android:text="ADD"
+                            android:textSize="10sp"
+                            android:textAlignment="center"
+                            android:textColor="@color/white"
+                            android:backgroundTint="@color/darkblue"
+                            android:fontFamily="@font/robotoslabregular"
+                            android:textStyle="normal"
+                            android:layout_marginRight="3dp"
+                            android:layout_marginLeft="3dp"
+                            android:onClick="addDetailsFarmChicken"
+                            />
+
+
+
+
+
+
+                    </LinearLayout>
+
+
+
+
+
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_margin="10dp"
+                app:cardCornerRadius="5dp"
+                app:cardElevation="10dp"
+                android:elevation="10dp"
+                >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:background="@color/white"
+                    >
+
+                    <ImageView
+                        android:id="@+id/img_desi_chicken"
+                        android:layout_width="wrap_content"
+                        android:layout_height="170dp"
+                        android:layout_gravity="start"
+                        android:layout_marginTop="-35dp"
+                        android:src="@drawable/desichicken"/>
+
+                    <TextView
+                        android:id="@+id/tv_desi_chicken"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Desi Chicken"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:textStyle="normal"
+                        android:fontFamily="@font/robotoslabregular"
+                        android:textColor="@color/black"
+                        android:textSize="15sp"
+                        android:layout_marginTop="-27dp"
+                        />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+
+                        <TextView
+                            android:id="@+id/tv_desi_chicken_wt"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="1kg (Net wt 700-800 gms)"
+                            android:layout_weight="1"
+                            android:layout_gravity="center"
+                            android:gravity="start|center"
+                            android:textAlignment="textStart"
+                            android:textStyle="normal"
+                            android:fontFamily="@font/robotoslabregular"
+                            android:textColor="@color/black"
+                            android:textSize="12sp"
+                            android:layout_marginLeft="4dp"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=" "
+                            android:layout_gravity="center"
+                            android:gravity="start|center"
+                            android:textAlignment="textStart"
+                            android:textStyle="normal"
+                            android:fontFamily="@font/robotoslabregular"
+                            android:textColor="@color/black"
+                            android:textSize="12sp"
+                            android:layout_marginRight="5dp"
+
+                            />
+
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+
+
+                        <TextView
+                            android:id="@+id/tv_desi_chicken_price"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/Rs300"
+                            android:layout_weight="1"
+                            android:layout_gravity="center"
+                            android:gravity="start|center"
+                            android:textAlignment="textStart"
+                            android:textStyle="normal"
+                            android:fontFamily="@font/robotoslabregular"
+                            android:textColor="@color/darkblue"
+                            android:textSize="12sp"
+                            android:layout_marginLeft="4dp"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=" "
+                            android:layout_marginRight="5dp"
+                            android:layout_gravity="center"
+                            android:gravity="start|center"
+                            android:textAlignment="textStart"
+                            android:textStyle="normal"
+                            android:fontFamily="@font/robotoslabregular"
+                            android:textColor="@color/black"
+                            android:textSize="12sp"
+                            android:layout_marginLeft="4dp"
+                            />
+
+
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0.4dp"
+                        android:layout_marginRight="3dp"
+                        android:layout_marginLeft="3dp"
+                        android:background="@color/black"/>
+                    <TextView
+                        android:id="@+id/tv_addtocart_desi_chicken"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="ADD TO CART"
+                        android:layout_marginRight="5dp"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:textAlignment="center"
+                        android:textStyle="normal"
+                        android:fontFamily="@font/robotoslabregular"
+                        android:textColor="@color/black"
+                        android:layout_marginTop="4dp"
+                        android:textSize="12sp"
+                        android:layout_marginLeft="4dp"
+                        />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:orientation="horizontal"
+
+                        >
+
+                        <com.google.android.material.button.MaterialButton
+                            android:id="@+id/btn_add_desi_chicken"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            app:cornerRadius="5dp"
+                            android:elevation="10dp"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            app:elevation="10dp"
+                            android:text="ADD"
+                            android:textSize="10sp"
+                            android:textAlignment="center"
+                            android:textColor="@color/white"
+                            android:backgroundTint="@color/darkblue"
+                            android:fontFamily="@font/robotoslabregular"
+                            android:textStyle="normal"
+                            android:layout_marginRight="3dp"
+                            android:layout_marginLeft="3dp"
+                            android:onClick="addDetailsDesiChicken"
+
+                            />
+
+
+
+
+
+
+                    </LinearLayout>
+
+
+
+
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            >
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_margin="10dp"
+                app:cardCornerRadius="5dp"
+                app:cardElevation="10dp"
+                android:elevation="10dp"
+                >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:background="@color/white"
+                    >
+
+                    <ImageView
+                        android:id="@+id/img_chicken_kheema"
+                        android:layout_width="wrap_content"
+                        android:layout_height="170dp"
+                        android:layout_gravity="start"
+                        android:layout_marginTop="-35dp"
+                        android:src="@drawable/chickenkeema"/>
+
+                    <TextView
+                        android:id="@+id/tv_chicken_kheema"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Chicken Kheema"
+                        android:textAlignment="textStart"
+                        android:layout_gravity="center"
+                        android:gravity="start"
+                        android:textStyle="normal"
+                        android:fontFamily="@font/robotoslabregular"
+                        android:textColor="@color/black"
+                        android:textSize="15sp"
+                        android:layout_marginTop="-27dp"
+                        />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+
+                        <TextView
+                            android:id="@+id/tv_chicken_kheema_wt"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="500gms"
+                            android:layout_weight="1"
+                            android:layout_gravity="center"
+                            android:gravity="start|center"
+                            android:textAlignment="textStart"
+                            android:textStyle="normal"
+                            android:fontFamily="@font/robotoslabregular"
+                            android:textColor="@color/black"
+                            android:textSize="12sp"
+                            android:layout_marginLeft="4dp"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=" "
+                            android:layout_gravity="center"
+                            android:gravity="start|center"
+                            android:textAlignment="textStart"
+                            android:textStyle="normal"
+                            android:fontFamily="@font/robotoslabregular"
+                            android:textColor="@color/black"
+                            android:textSize="12sp"
+                            android:layout_marginRight="5dp"
+
+                            />
+
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+
+
+                        <TextView
+                            android:id="@+id/tv_chicken_kheema_farm_price"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/Rs120"
+                            android:layout_weight="1"
+                            android:layout_gravity="center"
+                            android:gravity="start|center"
+                            android:textAlignment="textStart"
+                            android:textStyle="normal"
+                            android:fontFamily="@font/robotoslabregular"
+                            android:textColor="@color/darkblue"
+                            android:textSize="12sp"
+                            android:layout_marginLeft="4dp"
+                            />
+
+                        <TextView
+                            android:id="@+id/tv_farm_chicken_kheema"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Farm"
+                            android:layout_marginRight="5dp"
+                            android:layout_gravity="center"
+                            android:gravity="start|center"
+                            android:textAlignment="textStart"
+                            android:textStyle="normal"
+                            android:fontFamily="@font/robotoslabregular"
+                            android:textColor="@color/black"
+                            android:textSize="12sp"
+                            android:layout_marginLeft="4dp"
+                            />
+
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+
+
+                        <TextView
+                            android:id="@+id/tv_chicken_kheema_price_desi"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/Rs190"
+                            android:layout_weight="1"
+                            android:layout_gravity="center"
+                            android:gravity="start|center"
+                            android:textAlignment="textStart"
+                            android:textStyle="normal"
+                            android:fontFamily="@font/robotoslabregular"
+                            android:textColor="@color/darkblue"
+                            android:textSize="12sp"
+                            android:layout_marginLeft="4dp"
+                            />
+
+                        <TextView
+                            android:id="@+id/tv_desi_chicken_kheema"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Desi"
+                            android:layout_marginRight="5dp"
+                            android:layout_gravity="center"
+                            android:gravity="start|center"
+                            android:textAlignment="textStart"
+                            android:textStyle="normal"
+                            android:fontFamily="@font/robotoslabregular"
+                            android:textColor="@color/black"
+                            android:textSize="12sp"
+                            android:layout_marginLeft="4dp"
+                            />
+
+
+                    </LinearLayout>
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0.4dp"
+                        android:layout_marginRight="3dp"
+                        android:layout_marginLeft="3dp"
+                        android:background="@color/black"/>
+                    <TextView
+                        android:id="@+id/tv_addtocart_chicken_kheema"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="ADD TO CART"
+                        android:layout_marginRight="5dp"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:textAlignment="center"
+                        android:textStyle="normal"
+                        android:fontFamily="@font/robotoslabregular"
+                        android:textColor="@color/black"
+                        android:layout_marginTop="4dp"
+                        android:textSize="12sp"
+                        android:layout_marginLeft="4dp"
+                        />
+
+                    <LinearLayout
+
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:orientation="horizontal"
+                        android:weightSum="2"
+                        >
+
+                        <com.google.android.material.button.MaterialButton
+                            android:id="@+id/btn_add_chicken_kheema_farm"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            app:cornerRadius="5dp"
+                            android:elevation="10dp"
+                            app:elevation="10dp"
+                            android:text="Farm"
+                            android:textSize="10sp"
+                            android:textAlignment="center"
+                            android:textColor="@color/white"
+                            android:backgroundTint="@color/darkblue"
+                            android:fontFamily="@font/robotoslabregular"
+                            android:textStyle="normal"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginLeft="3dp"
+                            android:onClick="addDetailsFarmChickenKheema"
+
+                            />
+
+                        <com.google.android.material.button.MaterialButton
+                            android:id="@+id/btn_add_chicken_kheema_desi"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            app:cornerRadius="5dp"
+                            android:elevation="10dp"
+                            app:elevation="10dp"
+                            android:text="Desi"
+                            android:textSize="10sp"
+                            android:textAlignment="center"
+                            android:textColor="@color/white"
+                            android:backgroundTint="@color/darkblue"
+                            android:fontFamily="@font/robotoslabregular"
+                            android:textStyle="normal"
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginRight="3dp"
+                            android:onClick="addDetailsDesiChickenKheema"
+                            />
+
+
+
+
+                    </LinearLayout>
+
+
+
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_margin="10dp"
+                app:cardCornerRadius="5dp"
+                app:cardElevation="10dp"
+                android:elevation="10dp"
+                >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:background="@color/white"
+                    >
+
+                    <ImageView
+                        android:id="@+id/img_chicken_liver"
+                        android:layout_width="wrap_content"
+                        android:layout_height="170dp"
+                        android:layout_gravity="start"
+                        android:layout_marginTop="-35dp"
+                        android:src="@drawable/chickenliver"/>
+
+                    <TextView
+                        android:id="@+id/tv_chicken_liver"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Chicken Liver"
+                        android:textAlignment="center"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:textStyle="normal"
+                        android:fontFamily="@font/robotoslabregular"
+                        android:textColor="@color/black"
+                        android:textSize="15sp"
+                        android:layout_marginTop="-27dp"
+                        />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+
+                        <TextView
+                            android:id="@+id/tv_chicken_liver_wt"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="500gms"
+                            android:layout_weight="1"
+                            android:layout_gravity="center"
+                            android:gravity="start|center"
+                            android:textAlignment="textStart"
+                            android:textStyle="normal"
+                            android:fontFamily="@font/robotoslabregular"
+                            android:textColor="@color/black"
+                            android:textSize="12sp"
+                            android:layout_marginLeft="4dp"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=" "
+                            android:layout_gravity="center"
+                            android:gravity="start|center"
+                            android:textAlignment="textStart"
+                            android:textStyle="normal"
+                            android:fontFamily="@font/robotoslabregular"
+                            android:textColor="@color/black"
+                            android:textSize="12sp"
+                            android:layout_marginRight="5dp"
+
+                            />
+
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+
+
+                        <TextView
+                            android:id="@+id/tv_chicken_liver_farm"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/Rs120"
+                            android:layout_weight="1"
+                            android:layout_gravity="center"
+                            android:gravity="start|center"
+                            android:textAlignment="textStart"
+                            android:textStyle="normal"
+                            android:fontFamily="@font/robotoslabregular"
+                            android:textColor="@color/darkblue"
+                            android:textSize="12sp"
+                            android:layout_marginLeft="4dp"
+                            />
+
+                        <TextView
+                            android:id="@+id/tv_farm_chicken_liver"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Farm"
+                            android:layout_marginRight="5dp"
+                            android:layout_gravity="center"
+                            android:gravity="start|center"
+                            android:textAlignment="textStart"
+                            android:textStyle="normal"
+                            android:fontFamily="@font/robotoslabregular"
+                            android:textColor="@color/black"
+                            android:textSize="12sp"
+                            android:layout_marginLeft="4dp"
+                            />
+
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+
+
+                        <TextView
+                            android:id="@+id/tv_chicken_liver_desi"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/Rs220"
+                            android:layout_weight="1"
+                            android:layout_gravity="center"
+                            android:gravity="start|center"
+                            android:textAlignment="textStart"
+                            android:textStyle="normal"
+                            android:fontFamily="@font/robotoslabregular"
+                            android:textColor="@color/darkblue"
+                            android:textSize="12sp"
+                            android:layout_marginLeft="4dp"
+                            />
+
+                        <TextView
+                            android:id="@+id/tv_desi_chicken_liver"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Desi"
+                            android:layout_marginRight="5dp"
+                            android:layout_gravity="center"
+                            android:gravity="start|center"
+                            android:textAlignment="textStart"
+                            android:textStyle="normal"
+                            android:fontFamily="@font/robotoslabregular"
+                            android:textColor="@color/black"
+                            android:textSize="12sp"
+                            android:layout_marginLeft="4dp"
+                            />
+
+
+                    </LinearLayout>
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0.4dp"
+                        android:layout_marginRight="3dp"
+                        android:layout_marginLeft="3dp"
+                        android:background="@color/black"/>
+                    <TextView
+                        android:id="@+id/tv_addtocart_chicken_liver"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="ADD TO CART"
+                        android:layout_marginRight="5dp"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:textAlignment="center"
+                        android:textStyle="normal"
+                        android:fontFamily="@font/robotoslabregular"
+                        android:textColor="@color/black"
+                        android:layout_marginTop="4dp"
+                        android:textSize="12sp"
+                        android:layout_marginLeft="4dp"
+                        />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:orientation="horizontal"
+                        android:weightSum="2"
+                        >
+
+                        <com.google.android.material.button.MaterialButton
+                            android:id="@+id/btn_add_chicken_liver_farm"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            app:cornerRadius="5dp"
+                            android:elevation="10dp"
+                            app:elevation="10dp"
+                            android:text="Farm"
+                            android:textSize="10sp"
+                            android:textAlignment="center"
+                            android:textColor="@color/white"
+                            android:backgroundTint="@color/darkblue"
+                            android:fontFamily="@font/robotoslabregular"
+                            android:textStyle="normal"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginLeft="3dp"
+                            android:onClick="addDetailsFarmChickenLiver"
+
+                            />
+
+                        <com.google.android.material.button.MaterialButton
+                            android:id="@+id/btn_add_chicken_liver_desi"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            app:cornerRadius="5dp"
+                            android:elevation="10dp"
+                            app:elevation="10dp"
+                            android:text="Desi"
+                            android:textSize="10sp"
+                            android:textAlignment="center"
+                            android:textColor="@color/white"
+                            android:backgroundTint="@color/darkblue"
+                            android:fontFamily="@font/robotoslabregular"
+                            android:textStyle="normal"
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginRight="3dp"
+                            android:onClick="addDetailsDesiChickenLiver"
+                            />
+
+
+
+
+                    </LinearLayout>
+
+
+
+
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            >
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_margin="10dp"
+                app:cardCornerRadius="5dp"
+                app:cardElevation="10dp"
+                android:elevation="10dp"
+                >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:background="@color/white"
+                    >
+
+                    <ImageView
+                        android:id="@+id/img_goat_liver"
+                        android:layout_width="wrap_content"
+                        android:layout_height="170dp"
+                        android:layout_gravity="start"
+                        android:layout_marginTop="-35dp"
+                        android:src="@drawable/goatliver"/>
+
+                    <TextView
+                        android:id="@+id/tv_goat_liver"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Goat Liver"
+                        android:textAlignment="center"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:textStyle="normal"
+                        android:fontFamily="@font/robotoslabregular"
+                        android:textColor="@color/black"
+                        android:textSize="15sp"
+                        android:layout_marginTop="-27dp"
+                        />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+
+                        <TextView
+                            android:id="@+id/tv_goat_liver_wt"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="500gms"
+                            android:layout_weight="1"
+                            android:layout_gravity="center"
+                            android:gravity="start|center"
+                            android:textAlignment="textStart"
+                            android:textStyle="normal"
+                            android:fontFamily="@font/robotoslabregular"
+                            android:textColor="@color/black"
+                            android:textSize="12sp"
+                            android:layout_marginLeft="4dp"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=" "
+                            android:layout_gravity="center"
+                            android:gravity="start|center"
+                            android:textAlignment="textStart"
+                            android:textStyle="normal"
+                            android:fontFamily="@font/robotoslabregular"
+                            android:textColor="@color/black"
+                            android:textSize="12sp"
+                            android:layout_marginRight="5dp"
+
+                            />
+
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+
+
+                        <TextView
+                            android:id="@+id/tv_goat_liver_price"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/Rs400"
+                            android:layout_weight="1"
+                            android:layout_gravity="center"
+                            android:gravity="start|center"
+                            android:textAlignment="textStart"
+                            android:textStyle="normal"
+                            android:fontFamily="@font/robotoslabregular"
+                            android:textColor="@color/darkblue"
+                            android:textSize="12sp"
+                            android:layout_marginLeft="4dp"
+                            />
+
+                        <TextView
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=" "
+                            android:layout_marginRight="5dp"
+                            android:layout_gravity="center"
+                            android:gravity="start|center"
+                            android:textAlignment="textStart"
+                            android:textStyle="normal"
+                            android:fontFamily="@font/robotoslabregular"
+                            android:textColor="@color/black"
+                            android:textSize="12sp"
+                            android:layout_marginLeft="4dp"
+                            />
+
+
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0.4dp"
+                        android:layout_marginRight="3dp"
+                        android:layout_marginLeft="3dp"
+                        android:background="@color/black"/>
+                    <TextView
+                        android:id="@+id/tv_addtocart_goat_liver"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="ADD TO CART"
+                        android:layout_marginRight="5dp"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:textAlignment="center"
+                        android:textStyle="normal"
+                        android:fontFamily="@font/robotoslabregular"
+                        android:textColor="@color/black"
+                        android:layout_marginTop="4dp"
+                        android:textSize="12sp"
+                        android:layout_marginLeft="4dp"
+                        />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:orientation="horizontal"
+
+                        >
+
+                        <com.google.android.material.button.MaterialButton
+                            android:id="@+id/btn_add_goat_liver"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            app:cornerRadius="5dp"
+                            android:elevation="10dp"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            app:elevation="10dp"
+                            android:text="ADD"
+                            android:textSize="10sp"
+                            android:textAlignment="center"
+                            android:textColor="@color/white"
+                            android:backgroundTint="@color/darkblue"
+                            android:fontFamily="@font/robotoslabregular"
+                            android:textStyle="normal"
+                            android:layout_marginRight="3dp"
+                            android:layout_marginLeft="3dp"
+                            android:onClick="addDetailsGoatLiver"
+
+                            />
+
+
+
+
+
+
+                    </LinearLayout>
+
+
+
+
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_margin="10dp"
+                app:cardCornerRadius="5dp"
+                app:cardElevation="10dp"
+                android:elevation="10dp"
+                >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:background="@color/white"
+                    >
+
+                    <ImageView
+                        android:id="@+id/img_goat_meat"
+                        android:layout_width="wrap_content"
+                        android:layout_height="170dp"
+                        android:layout_gravity="start"
+                        android:layout_marginTop="-35dp"
+                        android:src="@drawable/goatmeat"/>
+
+                    <TextView
+                        android:id="@+id/tv_goat_meat"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Goat Meat"
+                        android:textAlignment="center"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:textStyle="normal"
+                        android:fontFamily="@font/robotoslabregular"
+                        android:textColor="@color/black"
+                        android:textSize="15sp"
+                        android:layout_marginTop="-27dp"
+                        />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+
+                        <TextView
+                            android:id="@+id/tv_goat_meat_wt"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="500gms"
+                            android:layout_weight="1"
+                            android:layout_gravity="center"
+                            android:gravity="start|center"
+                            android:textAlignment="textStart"
+                            android:textStyle="normal"
+                            android:fontFamily="@font/robotoslabregular"
+                            android:textColor="@color/black"
+                            android:textSize="12sp"
+                            android:layout_marginLeft="4dp"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=" "
+                            android:layout_gravity="center"
+                            android:gravity="start|center"
+                            android:textAlignment="textStart"
+                            android:textStyle="normal"
+                            android:fontFamily="@font/robotoslabregular"
+                            android:textColor="@color/black"
+                            android:textSize="12sp"
+                            android:layout_marginRight="5dp"
+
+                            />
+
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+
+
+                        <TextView
+                            android:id="@+id/tv_goat_meat_price"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/Rs350"
+                            android:layout_weight="1"
+                            android:layout_gravity="center"
+                            android:gravity="start|center"
+                            android:textAlignment="textStart"
+                            android:textStyle="normal"
+                            android:fontFamily="@font/robotoslabregular"
+                            android:textColor="@color/darkblue"
+                            android:textSize="12sp"
+                            android:layout_marginLeft="4dp"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=" "
+                            android:layout_marginRight="5dp"
+                            android:layout_gravity="center"
+                            android:gravity="start|center"
+                            android:textAlignment="textStart"
+                            android:textStyle="normal"
+                            android:fontFamily="@font/robotoslabregular"
+                            android:textColor="@color/black"
+                            android:textSize="12sp"
+                            android:layout_marginLeft="4dp"
+                            />
+
+
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0.4dp"
+                        android:layout_marginRight="3dp"
+                        android:layout_marginLeft="3dp"
+                        android:background="@color/black"/>
+                    <TextView
+                        android:id="@+id/tv_addtocart_goat_meat"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="ADD TO CART"
+                        android:layout_marginRight="5dp"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:textAlignment="center"
+                        android:textStyle="normal"
+                        android:fontFamily="@font/robotoslabregular"
+                        android:textColor="@color/black"
+                        android:layout_marginTop="4dp"
+                        android:textSize="12sp"
+                        android:layout_marginLeft="4dp"
+                        />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:orientation="horizontal"
+
+                        >
+
+                        <com.google.android.material.button.MaterialButton
+                            android:id="@+id/btn_add_goat_meat"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            app:cornerRadius="5dp"
+                            android:elevation="10dp"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            app:elevation="10dp"
+                            android:text="ADD"
+                            android:textSize="10sp"
+                            android:textAlignment="center"
+                            android:textColor="@color/white"
+                            android:backgroundTint="@color/darkblue"
+                            android:fontFamily="@font/robotoslabregular"
+                            android:textStyle="normal"
+                            android:layout_marginRight="3dp"
+                            android:layout_marginLeft="3dp"
+                            android:onClick="addDetailsGoatMeat"
+
+                            />
+
+
+
+
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            >
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_margin="10dp"
+                app:cardCornerRadius="5dp"
+                app:cardElevation="10dp"
+                android:elevation="10dp"
+                >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:background="@color/white"
+                    >
+
+                    <ImageView
+                        android:id="@+id/img_goat_mince"
+                        android:layout_width="wrap_content"
+                        android:layout_height="170dp"
+                        android:layout_gravity="start"
+                        android:layout_marginTop="-35dp"
+                        android:src="@drawable/goatkeema"/>
+
+                    <TextView
+                        android:id="@+id/tv_goat_mince"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Goat Kheema"
+                        android:textAlignment="center"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:textStyle="normal"
+                        android:fontFamily="@font/robotoslabregular"
+                        android:textColor="@color/black"
+                        android:textSize="15sp"
+                        android:layout_marginTop="-27dp"
+                        />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+
+                        <TextView
+                            android:id="@+id/tv_goat_mince_wt"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="500gms"
+                            android:layout_weight="1"
+                            android:layout_gravity="center"
+                            android:gravity="start|center"
+                            android:textAlignment="textStart"
+                            android:textStyle="normal"
+                            android:fontFamily="@font/robotoslabregular"
+                            android:textColor="@color/black"
+                            android:textSize="12sp"
+                            android:layout_marginLeft="4dp"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=" "
+                            android:layout_gravity="center"
+                            android:gravity="start|center"
+                            android:textAlignment="textStart"
+                            android:textStyle="normal"
+                            android:fontFamily="@font/robotoslabregular"
+                            android:textColor="@color/black"
+                            android:textSize="12sp"
+                            android:layout_marginRight="5dp"
+
+                            />
+
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+
+
+                        <TextView
+                            android:id="@+id/tv_goat_mince_price"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/Rs400"
+                            android:layout_weight="1"
+                            android:layout_gravity="center"
+                            android:gravity="start|center"
+                            android:textAlignment="textStart"
+                            android:textStyle="normal"
+                            android:fontFamily="@font/robotoslabregular"
+                            android:textColor="@color/darkblue"
+                            android:textSize="12sp"
+                            android:layout_marginLeft="4dp"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=" "
+                            android:layout_marginRight="5dp"
+                            android:layout_gravity="center"
+                            android:gravity="start|center"
+                            android:textAlignment="textStart"
+                            android:textStyle="normal"
+                            android:fontFamily="@font/robotoslabregular"
+                            android:textColor="@color/black"
+                            android:textSize="12sp"
+                            android:layout_marginLeft="4dp"
+                            />
+
+
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0.4dp"
+                        android:layout_marginRight="3dp"
+                        android:layout_marginLeft="3dp"
+                        android:background="@color/black"/>
+                    <TextView
+                        android:id="@+id/tv_addtocart_goat_mince"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="ADD TO CART"
+                        android:layout_marginRight="5dp"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:textAlignment="center"
+                        android:textStyle="normal"
+                        android:fontFamily="@font/robotoslabregular"
+                        android:textColor="@color/black"
+                        android:layout_marginTop="4dp"
+                        android:textSize="12sp"
+                        android:layout_marginLeft="4dp"
+                        />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:orientation="horizontal"
+
+                        >
+
+                        <com.google.android.material.button.MaterialButton
+                            android:id="@+id/btn_add_goat_mince"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            app:cornerRadius="5dp"
+                            android:elevation="10dp"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            app:elevation="10dp"
+                            android:text="ADD"
+                            android:textSize="10sp"
+                            android:textAlignment="center"
+                            android:textColor="@color/white"
+                            android:backgroundTint="@color/darkblue"
+                            android:fontFamily="@font/robotoslabregular"
+                            android:textStyle="normal"
+                            android:layout_marginRight="3dp"
+                            android:layout_marginLeft="3dp"
+                            android:onClick="addDetailsGoatKheema"
+
+                            />
+
+
+
+
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_margin="10dp"
+                app:cardCornerRadius="5dp"
+                app:cardElevation="10dp"
+                android:elevation="10dp"
+                >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:background="@color/white"
+                    >
+
+                    <ImageView
+                        android:id="@+id/img_fish"
+                        android:layout_width="wrap_content"
+                        android:layout_height="170dp"
+                        android:layout_gravity="start"
+                        android:layout_marginTop="-35dp"
+                        android:src="@drawable/fish"/>
+
+                    <TextView
+                        android:id="@+id/tv_fish"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Rehu Fish"
+                        android:textAlignment="center"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:textStyle="normal"
+                        android:fontFamily="@font/robotoslabregular"
+                        android:textColor="@color/black"
+                        android:textSize="15sp"
+                        android:layout_marginTop="-27dp"
+                        />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+
+                        <TextView
+                            android:id="@+id/tv_fish_wt"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="500gms"
+                            android:layout_weight="1"
+                            android:layout_gravity="center"
+                            android:gravity="start|center"
+                            android:textAlignment="textStart"
+                            android:textStyle="normal"
+                            android:fontFamily="@font/robotoslabregular"
+                            android:textColor="@color/black"
+                            android:textSize="12sp"
+                            android:layout_marginLeft="4dp"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=" "
+                            android:layout_gravity="center"
+                            android:gravity="start|center"
+                            android:textAlignment="textStart"
+                            android:textStyle="normal"
+                            android:fontFamily="@font/robotoslabregular"
+                            android:textColor="@color/black"
+                            android:textSize="12sp"
+                            android:layout_marginRight="5dp"
+
+                            />
+
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+
+
+                        <TextView
+                            android:id="@+id/tv_fish_price"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/Rs100"
+                            android:layout_weight="1"
+                            android:layout_gravity="center"
+                            android:gravity="start|center"
+                            android:textAlignment="textStart"
+                            android:textStyle="normal"
+                            android:fontFamily="@font/robotoslabregular"
+                            android:textColor="@color/darkblue"
+                            android:textSize="12sp"
+                            android:layout_marginLeft="4dp"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=" "
+                            android:layout_marginRight="5dp"
+                            android:layout_gravity="center"
+                            android:gravity="start|center"
+                            android:textAlignment="textStart"
+                            android:textStyle="normal"
+                            android:fontFamily="@font/robotoslabregular"
+                            android:textColor="@color/black"
+                            android:textSize="12sp"
+                            android:layout_marginLeft="4dp"
+                            />
+
+
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0.4dp"
+                        android:layout_marginRight="3dp"
+                        android:layout_marginLeft="3dp"
+                        android:background="@color/black"/>
+                    <TextView
+                        android:id="@+id/tv_addtocart_fish"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="ADD TO CART"
+                        android:layout_marginRight="5dp"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:textAlignment="center"
+                        android:textStyle="normal"
+                        android:fontFamily="@font/robotoslabregular"
+                        android:textColor="@color/black"
+                        android:layout_marginTop="4dp"
+                        android:textSize="12sp"
+                        android:layout_marginLeft="4dp"
+                        />
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:orientation="horizontal"
+
+                        >
+
+                        <com.google.android.material.button.MaterialButton
+                            android:id="@+id/btn_add_fish"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            app:cornerRadius="5dp"
+                            android:elevation="10dp"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            app:elevation="10dp"
+                            android:text="ADD"
+                            android:textSize="10sp"
+                            android:textAlignment="center"
+                            android:textColor="@color/white"
+                            android:backgroundTint="@color/darkblue"
+                            android:fontFamily="@font/robotoslabregular"
+                            android:textStyle="normal"
+                            android:layout_marginRight="3dp"
+                            android:layout_marginLeft="3dp"
+                            android:onClick="addDetailsRehuFish"
+
+                            />
+
+
+
+
+
+
+                    </LinearLayout>
+
+
+
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+
+            >
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="162dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                app:cardCornerRadius="5dp"
+                app:cardElevation="10dp"
+                android:elevation="10dp"
+                >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:background="@color/white"
+                    >
+
+                    <ImageView
+                        android:id="@+id/img_egg"
+                        android:layout_width="wrap_content"
+                        android:layout_height="170dp"
+                        android:layout_gravity="start"
+                        android:layout_marginTop="-35dp"
+                        android:src="@drawable/egg"/>
+
+                    <TextView
+                        android:id="@+id/tv_egg"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Egg"
+                        android:textAlignment="center"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:textStyle="normal"
+                        android:fontFamily="@font/robotoslabregular"
+                        android:textColor="@color/black"
+                        android:textSize="15sp"
+                        android:layout_marginTop="-27dp"
+                        />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+
+                        <TextView
+                            android:id="@+id/tv_egg_piece"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="12 piece"
+                            android:layout_weight="1"
+                            android:layout_gravity="center"
+                            android:gravity="start|center"
+                            android:textAlignment="textStart"
+                            android:textStyle="normal"
+                            android:fontFamily="@font/robotoslabregular"
+                            android:textColor="@color/black"
+                            android:textSize="12sp"
+                            android:layout_marginLeft="4dp"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=" "
+                            android:layout_gravity="center"
+                            android:gravity="start|center"
+                            android:textAlignment="textStart"
+                            android:textStyle="normal"
+                            android:fontFamily="@font/robotoslabregular"
+                            android:textColor="@color/black"
+                            android:textSize="12sp"
+                            android:layout_marginRight="5dp"
+
+                            />
+
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+
+
+                        <TextView
+                            android:id="@+id/tv_egg_price_farm"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/Rs100"
+                            android:layout_weight="1"
+                            android:layout_gravity="center"
+                            android:gravity="start|center"
+                            android:textAlignment="textStart"
+                            android:textStyle="normal"
+                            android:fontFamily="@font/robotoslabregular"
+                            android:textColor="@color/darkblue"
+                            android:textSize="12sp"
+                            android:layout_marginLeft="4dp"
+                            />
+
+                        <TextView
+                            android:id="@+id/tv_farm_egg"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Farm"
+                            android:layout_marginRight="5dp"
+                            android:layout_gravity="center"
+                            android:gravity="start|center"
+                            android:textAlignment="textStart"
+                            android:textStyle="normal"
+                            android:fontFamily="@font/robotoslabregular"
+                            android:textColor="@color/black"
+                            android:textSize="12sp"
+                            android:layout_marginLeft="4dp"
+                            />
+
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+
+
+                        <TextView
+                            android:id="@+id/tv_desi_egg_price"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/Rs140"
+                            android:layout_weight="1"
+                            android:layout_gravity="center"
+                            android:gravity="start|center"
+                            android:textAlignment="textStart"
+                            android:textStyle="normal"
+                            android:fontFamily="@font/robotoslabregular"
+                            android:textColor="@color/darkblue"
+                            android:textSize="12sp"
+                            android:layout_marginLeft="4dp"
+                            />
+
+                        <TextView
+                            android:id="@+id/tv_desi_egg"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Desi"
+                            android:layout_marginRight="5dp"
+                            android:layout_gravity="center"
+                            android:gravity="start|center"
+                            android:textAlignment="textStart"
+                            android:textStyle="normal"
+                            android:fontFamily="@font/robotoslabregular"
+                            android:textColor="@color/black"
+                            android:textSize="12sp"
+                            android:layout_marginLeft="4dp"
+                            />
+
+
+                    </LinearLayout>
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0.4dp"
+                        android:layout_marginRight="3dp"
+                        android:layout_marginLeft="3dp"
+                        android:background="@color/black"/>
+                    <TextView
+                        android:id="@+id/tv_addtocart_egg"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="ADD TO CART"
+                        android:layout_marginRight="5dp"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:textAlignment="center"
+                        android:textStyle="normal"
+                        android:fontFamily="@font/robotoslabregular"
+                        android:textColor="@color/black"
+                        android:layout_marginTop="4dp"
+                        android:textSize="12sp"
+                        android:layout_marginLeft="4dp"
+                        />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:orientation="horizontal"
+                        android:weightSum="2"
+                        >
+
+                        <com.google.android.material.button.MaterialButton
+                            android:id="@+id/btn_add_farm_egg"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            app:cornerRadius="5dp"
+                            android:elevation="10dp"
+                            app:elevation="10dp"
+                            android:text="Farm"
+                            android:textSize="10sp"
+                            android:textAlignment="center"
+                            android:textColor="@color/white"
+                            android:backgroundTint="@color/darkblue"
+                            android:fontFamily="@font/robotoslabregular"
+                            android:textStyle="normal"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginLeft="3dp"
+                            android:onClick="addDetailsFarmEgg"
+
+                            />
+
+                        <com.google.android.material.button.MaterialButton
+                            android:id="@+id/btn_add_desi_egg"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            app:cornerRadius="5dp"
+                            android:elevation="10dp"
+                            app:elevation="10dp"
+                            android:text="Desi"
+                            android:textSize="10sp"
+                            android:textAlignment="center"
+                            android:textColor="@color/white"
+                            android:backgroundTint="@color/darkblue"
+                            android:fontFamily="@font/robotoslabregular"
+                            android:textStyle="normal"
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginRight="3dp"
+                            android:onClick="addDetailsDesiEgg"
+                            />
+
+
+
+
+                    </LinearLayout>
+
+
+
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</androidx.core.widget.NestedScrollView>

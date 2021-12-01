@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".MyProfile">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/lightblue"
+        android:orientation="horizontal"
+        android:padding="3dp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_vertical"
+        >
+
+        <ImageView
+            android:id="@+id/my_profile_back_arrow_cart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_baseline_arrow_back_24"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="2dp"
+            android:onClick="myProfileToHome"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="My Profile"
+            android:layout_weight="1"
+            android:textSize="22sp"
+            android:textColor="@color/white"
+            android:layout_gravity="center"
+            android:layout_marginLeft="15dp"
+            android:gravity="start|center"
+            android:textAlignment="textStart"
+            android:fontFamily="@font/robotoslabregular" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/white">
+
+        <TextView
+            android:id="@+id/tv_my_profile_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pratik Kumar"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:layout_gravity="center"
+            android:gravity="start|center"
+            android:textAlignment="textStart"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="4dp" />
+
+        <TextView
+            android:id="@+id/tv_my_profile_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" "
+            android:textSize="15sp"
+            android:textColor="@color/gray1"
+            android:layout_gravity="center"
+            android:gravity="start|center"
+            android:textAlignment="textStart"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="6dp" />
+
+        <TextView
+            android:id="@+id/tv_my_profile_mobile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" "
+            android:textSize="15sp"
+            android:textColor="@color/gray1"
+            android:layout_gravity="center"
+            android:gravity="start|center"
+            android:textAlignment="textStart"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="1dp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="4dp"
+            android:background="@color/gray3"
+            android:layout_marginTop="5dp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/white">
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Address"
+            android:textColor="@color/black"
+            android:layout_gravity="center"
+            android:gravity="start|center"
+            android:textAlignment="textStart"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="3dp"
+            android:textSize="18sp"
+            android:textStyle="normal"
+            android:fontFamily="@font/robotoslabregular"/>
+
+        <TextView
+            android:id="@+id/tv_my_profile_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/address"
+            android:textStyle="normal"
+            android:textSize="15sp"
+            android:fontFamily="@font/robotoslabregular"
+            android:textColor="@color/gray1"
+            android:layout_marginTop="3dp"
+            android:layout_marginStart="12dp"/>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="4dp"
+            android:background="@color/gray3"
+            android:layout_marginTop="5dp"
+            />
+
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

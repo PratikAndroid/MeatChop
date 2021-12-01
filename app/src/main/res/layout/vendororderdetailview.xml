@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/curved_corner_bg"
+        app:cardElevation="20dp"
+        android:elevation="20dp"
+        android:padding="15dp"
+        app:cardCornerRadius="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="@color/white"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_vendor_order_detail_product_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Chicken Curry Cuts "
+                android:layout_gravity="center"
+                android:gravity="start|center"
+                android:textAlignment="textStart"
+                android:textStyle="normal"
+                android:fontFamily="@font/robotoslabregular"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="8dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+
+                <TextView
+                    android:id="@+id/vendor_order_detail_final_wt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="1000gms"
+                    android:layout_gravity="center"
+                    android:gravity="start|center"
+                    android:textColor="@color/black"
+                    android:layout_marginStart="10dp"
+                    android:textSize="13sp" />
+
+                <TextView
+                    android:id="@+id/vendor_order_detail_product_type"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Farm "
+                    android:layout_gravity="center"
+                    android:gravity="start|center"
+                    android:textAlignment="textStart"
+                    android:textStyle="normal"
+                    android:fontFamily="@font/robotoslabregular"
+                    android:textColor="@color/black"
+                    android:textSize="13sp"
+                    android:layout_marginLeft="5dp" />
+
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/vendor_order_detail_product_final_price"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Rs 120 "
+                android:layout_gravity="center"
+                android:gravity="start|center"
+                android:textAlignment="textStart"
+                android:textStyle="normal"
+                android:fontFamily="@font/robotoslabregular"
+                android:textColor="@color/darkblue"
+                android:textSize="15sp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="3dp" />
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

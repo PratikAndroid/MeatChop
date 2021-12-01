@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".Address">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:orientation="horizontal"
+            android:padding="3dp"
+            android:background="@color/lightblue"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:id="@+id/back_arrow_add_delivery_address"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_baseline_arrow_back_24"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="2dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Add delivery address"
+                android:layout_weight="1"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                android:layout_gravity="center"
+                android:layout_marginLeft="15dp"
+                android:gravity="start|center"
+                android:textAlignment="textStart"
+                android:fontFamily="@font/robotoslabregular"
+                />
+        </LinearLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/full_name_text_input"
+            android:paddingStart="25dp"
+            android:paddingEnd="25dp"
+            android:paddingTop="10dp"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/lightblue"
+            app:boxStrokeColor="@color/lightblue">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/full_name_edit_text"
+                android:layout_width="match_parent"
+                android:inputType="text"
+                android:layout_height="wrap_content"
+                android:hint="Full Name(Required)"
+                android:textColorHint="@color/lightblue"
+                android:textColor="@color/darkblue"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/phone_number_text_input"
+            android:paddingStart="25dp"
+            android:paddingEnd="25dp"
+            android:paddingTop="10dp"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/lightblue"
+            app:boxStrokeColor="@color/lightblue">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/phone_number_edit_text"
+                android:layout_width="match_parent"
+                android:inputType="phone"
+                android:layout_height="wrap_content"
+                android:hint="Phone number(Required)"
+                android:textColorHint="@color/lightblue"
+                android:textColor="@color/darkblue"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <TextView
+            android:id="@+id/tv_add_alternative_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="+Add Alternate Phone Number "
+            android:textColor="@color/purple_700"
+            android:textSize="15sp"
+            android:layout_gravity="center"
+            android:gravity="start|center"
+            android:layout_marginStart="17dp"
+            android:layout_marginTop="10dp"
+            android:onClick="addAlternateNumber" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/alternate_number_text_input"
+            android:paddingStart="25dp"
+            android:paddingEnd="25dp"
+            android:paddingTop="10dp"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/lightblue"
+            app:boxStrokeColor="@color/lightblue"
+            android:visibility="gone"
+
+            >
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/alternate_number_edit_text"
+                android:layout_width="match_parent"
+                android:inputType="phone"
+                android:layout_height="wrap_content"
+                android:hint="+ Add Alternate Phone Number"
+                android:textColorHint="@color/lightblue"
+                android:textColor="@color/darkblue"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/pincode_text_input"
+            android:paddingStart="25dp"
+            android:paddingEnd="25dp"
+            android:paddingTop="10dp"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/lightblue"
+            app:boxStrokeColor="@color/lightblue"
+            >
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/pincode_edit_text"
+                android:layout_width="match_parent"
+                android:inputType="phone"
+                android:layout_height="wrap_content"
+                android:hint="Pincode(Required)"
+                android:textColorHint="@color/lightblue"
+                android:textColor="@color/darkblue"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/state_text_input"
+                android:paddingStart="25dp"
+                android:paddingEnd="5dp"
+                android:paddingTop="10dp"
+                android:layout_weight="1"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="@color/lightblue"
+                app:boxStrokeColor="@color/lightblue"
+                >
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/state_edit_text"
+                    android:layout_width="match_parent"
+                    android:inputType="text"
+                    android:layout_height="wrap_content"
+                    android:hint="State(Required)"
+                    android:textColorHint="@color/lightblue"
+                    android:textColor="@color/darkblue"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                 android:id="@+id/city_text_input"
+                android:paddingStart="5dp"
+                android:paddingEnd="25dp"
+                android:paddingTop="10dp"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:textColorHint="@color/lightblue"
+                app:boxStrokeColor="@color/lightblue"
+                >
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/city_edit_text"
+                    android:layout_width="match_parent"
+                    android:inputType="text"
+                    android:layout_height="wrap_content"
+                    android:hint="City(Required)"
+                    android:textColorHint="@color/lightblue"
+                    android:textColor="@color/darkblue"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+
+        </LinearLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/house_no_text_input"
+            android:paddingStart="25dp"
+            android:paddingEnd="25dp"
+            android:paddingTop="10dp"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/lightblue"
+            app:boxStrokeColor="@color/lightblue">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/house_no_edit_text"
+                android:layout_width="match_parent"
+                android:inputType="text"
+                android:layout_height="wrap_content"
+                android:hint="House No., Building Name(Required)"
+                android:textColorHint="@color/lightblue"
+                android:textColor="@color/darkblue"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/road_text_input"
+            android:paddingStart="25dp"
+            android:paddingEnd="25dp"
+            android:paddingTop="10dp"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/lightblue"
+            app:boxStrokeColor="@color/lightblue"
+
+
+            >
+            <com.google.android.material.textfield.TextInputEditText
+                 android:id="@+id/road_edit_text"
+                android:layout_width="match_parent"
+                android:inputType="text"
+                android:layout_height="wrap_content"
+                android:hint="Road name, Area, Colony(Required)"
+                android:textColorHint="@color/lightblue"
+                android:textColor="@color/darkblue"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView
+             android:id="@+id/tv_add_nearby"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="+Add Nearby Famous Shop/Mall/Landmark"
+            android:textColor="@color/purple_700"
+            android:textSize="15sp"
+            android:layout_gravity="center"
+            android:gravity="start|center"
+            android:layout_marginStart="17dp"
+            android:layout_marginTop="8dp"
+            android:onClick="addNearby"
+            android:visibility="visible"
+            />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/nearby_text_input"
+            android:paddingStart="25dp"
+            android:paddingEnd="25dp"
+            android:paddingTop="8dp"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/lightblue"
+            app:boxStrokeColor="@color/lightblue"
+            android:visibility="gone">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/nearby_edit_text"
+                android:layout_width="match_parent"
+                android:inputType="text"
+                android:layout_height="wrap_content"
+                android:hint="+ Add Nearby Famous Shop/Mall/Landmark"
+                android:textColorHint="@color/lightblue"
+                android:textColor="@color/darkblue"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_save_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:padding="15dp"
+            android:layout_marginStart="25dp"
+            android:layout_marginEnd="25dp"
+            android:text="Save"
+            android:textColor="@color/white"
+            style="@style/Widget.MaterialComponents.Button"
+            app:cornerRadius="5dp"
+            android:backgroundTint="@color/lightblue"
+            app:strokeColor="@color/darkblue"
+            android:onClick="saveAddress"
+            />
+
+
+    </LinearLayout>
+
+
+</ScrollView>

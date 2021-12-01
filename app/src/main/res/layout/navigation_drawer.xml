@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:orientation="vertical"
+          android:background="@color/white"
+
+    >
+
+      <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="120dp"
+         android:orientation="vertical"
+         android:background="@color/gray6"
+         >
+
+         <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MeatChops"
+        android:textAlignment="textStart"
+        android:fontFamily="@font/robotoslabregular"
+        android:textStyle="normal"
+        android:textSize="25sp"
+             android:textColor="@color/black"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"/>
+
+         <TextView
+             android:id="@+id/tv_user_mobile_no"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:text=" "
+             android:textAlignment="textStart"
+             android:fontFamily="@font/robotoslabregular"
+             android:textStyle="normal"
+             android:textSize="15sp"
+             android:textColor="@color/black"
+             android:layout_marginTop="20dp"
+             android:layout_marginLeft="10dp"
+             android:onClick="setUserMobileNo"/>
+
+         <TextView
+             android:id="@+id/tv_user_email_id"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:text=" "
+             android:textAlignment="textStart"
+             android:fontFamily="@font/robotoslabregular"
+             android:textStyle="normal"
+             android:textSize="15sp"
+             android:textColor="@color/black"
+             android:layout_marginTop="-2dp"
+             android:layout_marginLeft="10dp"
+             android:onClick="setUserEmailId"
+
+             />
+
+
+     </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/home_click"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:onClick="closeNavigationDrawer"
+
+        >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_baseline_home_24"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Home"
+            android:textColor="@color/black"
+            android:layout_gravity="center"
+            android:gravity="start"
+            android:textSize="15sp"
+            android:fontFamily="@font/robotoslabregular"
+            android:textStyle="normal"
+            android:textAlignment="textStart"
+            android:layout_marginLeft="20dp"/>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.3dp"
+        android:background="@color/darkblue"/>
+
+    <LinearLayout
+        android:id="@+id/myOrderClick"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+         android:onClick="goToMyOrder"
+        >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_baseline_assignment_turned_in_24"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="My Orders"
+            android:textColor="@color/black"
+            android:layout_gravity="center"
+            android:gravity="start"
+            android:textSize="15sp"
+            android:fontFamily="@font/robotoslabregular"
+            android:textStyle="normal"
+            android:textAlignment="textStart"
+            android:layout_marginLeft="20dp"/>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.3dp"
+        android:background="@color/darkblue"/>
+
+    <LinearLayout
+        android:id="@+id/myProfile_click"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:onClick="gotoMyProfile"
+
+
+        >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_baseline_account_box_24"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="My Profile"
+            android:textColor="@color/black"
+            android:layout_gravity="center"
+            android:gravity="start"
+            android:textSize="15sp"
+            android:fontFamily="@font/robotoslabregular"
+            android:textStyle="normal"
+            android:textAlignment="textStart"
+            android:layout_marginLeft="20dp"/>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.3dp"
+        android:background="@color/darkblue"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+
+        >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_baseline_star_outline_24"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Rate Us"
+            android:textColor="@color/black"
+            android:layout_gravity="center"
+            android:gravity="start"
+            android:textSize="15sp"
+            android:fontFamily="@font/robotoslabregular"
+            android:textStyle="normal"
+            android:textAlignment="textStart"
+            android:layout_marginLeft="20dp"/>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.3dp"
+        android:background="@color/darkblue"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+
+        >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_baseline_share_24"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Share App"
+            android:textColor="@color/black"
+            android:layout_gravity="center"
+            android:gravity="start"
+            android:textSize="15sp"
+            android:fontFamily="@font/robotoslabregular"
+            android:textStyle="normal"
+            android:textAlignment="textStart"
+            android:layout_marginLeft="20dp"/>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.3dp"
+        android:background="@color/darkblue"/>
+
+
+    <LinearLayout
+        android:id="@+id/login_click"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:visibility="gone"
+        android:onClick="goToLogOut"
+
+        >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_baseline_login_24"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Log out"
+            android:textColor="@color/black"
+            android:layout_gravity="center"
+            android:gravity="start"
+            android:textSize="15sp"
+            android:fontFamily="@font/robotoslabregular"
+            android:textStyle="normal"
+            android:textAlignment="textStart"
+            android:layout_marginLeft="20dp"/>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.3dp"
+        android:background="@color/darkblue"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:layout_gravity="bottom"
+        android:gravity="bottom"
+        android:layout_marginBottom="15dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Contact Us"
+            android:layout_gravity="center"
+            android:gravity="start"
+            android:textAlignment="textStart"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"
+            android:textStyle="normal"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="start"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_baseline_call_24"
+                android:layout_gravity="center"
+                android:layout_marginLeft="5dp"/>
+
+            <TextView
+                android:id="@+id/tv_owner_number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="6201436438"
+                android:fontFamily="@font/robotoslabregular"
+                android:textColor="@color/black"
+                android:gravity="start|center"
+                android:textAlignment="textStart"
+                android:textStyle="normal"
+                android:textSize="15sp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="3dp"
+                />
+
+
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="start"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_baseline_email_24"
+                android:layout_gravity="center"
+                android:layout_marginLeft="5dp"/>
+
+            <TextView
+                android:id="@+id/tv_owner_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="arapratikkumar@gmail.com"
+                android:fontFamily="@font/robotoslabregular"
+                android:textColor="@color/black"
+                android:gravity="start|center"
+                android:textAlignment="textStart"
+                android:textStyle="normal"
+                android:textSize="15sp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="3dp"
+                />
+
+
+
+
+
+        </LinearLayout>
+
+
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

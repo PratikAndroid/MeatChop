@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "467699308413",
+    "project_id": "meatchops-e0400",
+    "storage_bucket": "meatchops-e0400.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:467699308413:android:5bdfe43b02fe9626435e14",
+        "android_client_info": {
+          "package_name": "com.codewithpratik.meatchop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "467699308413-btb67h5jni44ul2n497k4sjkrgjg6nrm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAtoTSAGw381_sxyiQiOE1qg81qliW5aYw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "467699308413-btb67h5jni44ul2n497k4sjkrgjg6nrm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

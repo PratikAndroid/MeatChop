@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">MeatChop</string>
+    <string name="Rs">\u20B9</string>
+    <string name="Rs100">\u20B9 100</string>
+    <string name="Rs110">\u20B9 110</string>
+    <string name="Rs180">\u20B9 180</string>
+    <string name="Rs170">\u20B9 170</string>
+    <string name="Rs150">\u20B9 150</string>
+    <string name="Rs200">\u20B9 200</string>
+    <string name="Rs250">\u20B9 250</string>
+    <string name="Rs160">\u20B9 160</string>
+    <string name="Rs320">\u20B9 100</string>
+    <string name="Rs300">\u20B9 300</string>
+    <string name="Rs120">\u20B9 120</string>
+    <string name="Rs190">\u20B9 190</string>
+    <string name="Rs220">\u20B9 220</string>
+    <string name="Rs400">\u20B9 400</string>
+    <string name="Rs350">\u20B9 350</string>
+    <string name="Rs140">\u20B9 140</string>
+    <string name="Rs80">\u20B9 80</string>
+    <string name="Kg160">\u20B9 160/kg</string>
+    <string name="kg320">\u20B9 320/kg</string>
+    <string name="todo">TODO</string>
+    <string name="appName">MeatChops</string>
+    <string name="deliveryAddress">Delivery Address &amp; Date</string>
+    <string name="address">Devi Asthan, Rohit Kirana,<br /> Near wypar mandal, Arrah,<br /> Bihar, 802301    </string>
+
+</resources>

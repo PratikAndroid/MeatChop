@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="@color/gray6"
+    tools:context=".Thanks">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Order Placed"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textSize="30sp"
+            android:padding="2dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:fontFamily="@font/robotoslabregular"
+
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Check Order Status"
+            android:layout_gravity="center"
+            android:textSize="20sp"
+            android:layout_marginTop="2dp"
+            android:gravity="center"
+            android:textStyle="normal"
+            android:fontFamily="@font/robotoslabregular"
+            android:textColor="@color/gray1"
+            />
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_go_to_my_order"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Go To My Order"
+            android:textSize="20sp"
+            android:backgroundTint="@color/lightblue"
+            app:strokeColor="@color/darkblue"
+            app:strokeWidth="1dp"
+            app:cornerRadius="2dp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:padding="3dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            app:elevation="2dp"
+            android:elevation="3dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginStart="60dp"
+            android:layout_marginEnd="60dp"
+            android:onClick="MyOrderStatus"
+
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
